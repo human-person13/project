@@ -1,0 +1,223 @@
+body {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    float: right;
+}
+
+header h1, .column h3 {
+    font-size: 50px;
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.31);
+}
+
+.actualdivivder {
+    width: 100%;
+    height: 20px;
+    margin: 20px 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(84, 71, 63);
+    top: 0;
+    position: sticky;
+  }
+
+.navbar .albums {
+    float: left;
+}
+
+.navbar a {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(84, 71, 63);
+  }
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: rgb(60, 61, 55);
+}
+
+.column {
+    text-align: justify;
+    box-shadow: 0px 8px 16px 0px rgb(84, 71, 63);
+    background-color: rgb(60, 61, 55);
+}
+
+.left {   
+    padding: 20px;
+    float: left;
+    width: 25%; 
+    border: 3px solid rgb(84, 71, 63);
+    margin: 20px 0px 20px 20px;
+}
+
+.left h3 {
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 0 40px 0;
+}
+  
+ .right {
+    padding: 20px;
+    float: right;
+    width: 65%; 
+    margin: 20px 20px 20px 0;
+    border: 3px solid rgb(84, 71, 63);
+}
+
+.right P {
+    font-size: 25px;
+}
+
+.right h3 {
+    font-size: 40px;
+    display: contents;
+}
+
+img {
+    width: 300px;
+    float: left;
+    margin: 10px 15px 10px 0;
+    border: 2px solid rgba(0,0,0,0.2);
+    box-shadow: 8px 16px 16px 8px rgba(0,0,0,0.2);
+}
+
+.navbar2 {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.navbar2:hover .audio {
+    display: block;
+}
+
+.audio {
+    display: none;
+    background-color: rgb(84, 71, 63);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+ 
+@media screen and (max-width: 1200px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin: 0 8px;
+        padding: 13px 14px;
+    }
+
+    .right h3, .left h3 {
+        font-size: 35px;
+    }
+
+    .column p {
+        font-size: 20px;
+    }
+
+    .right img {
+        width: 250px;
+    }
+
+    .left span {
+        font-size: 17px;
+    }
+
+    audio {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    header h1 {
+        font-size: 35px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+        margin: 0 6px;
+        padding: 12px 9px;
+    }
+
+    .right h3, .left h3 {
+        font-size: 30px;
+    }
+
+    .right img {
+        width: 250px;
+    }
+
+    .column p {
+        font-size: 15px;
+    }
+
+    .right {
+        width: 100%;
+        margin: 0 0;
+
+    }
+
+    .left {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right img {
+        width: 200px;
+    }
+
+    .left span {
+        font-size: 14px;
+    }
+
+    audio {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .column h3 {
+        font-size: 20px;
+    }
+
+    .column p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .right img {
+        width: 150px;
+    }
+
+    .navbar2 {
+        margin: 0;
+    }
+}

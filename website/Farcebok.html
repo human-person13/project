@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Farcebook.css">
+</head>
+<body>
+
+    <header>
+    <h1>Farcebook</h1>
+<a href="https://en.wikipedia.org/wiki/Tarrare"><p>cool facts</p></a>
+    </header>
+
+    <form method="post">
+        <fieldset class="fieldset1">
+            <label for="name" >username:</label>
+            <input id="name" type="text" placeholder="Last name, First name M.I">
+            <br>
+            <label for="pass">password:</label>
+            <input id="pass" type="password" placeholder="**********">
+            <br>
+            <label for="mail">email:</label>
+            <input id="mail" type="email" placeholder="qwerty@gmail.com">
+            <br>
+            <label for="phone" >phone no: +63</label>
+            <input class="phonerange" id="phone" for="number" type="range" onchange="this.setAttribute('value',this.value);" min="09000000000" max="09999999999" value="955555555">
+            <br>
+            <label for="bday">birtdate:</label>
+            <input type="date">
+        </fieldset>
+        
+        <fieldset>
+
+        </fieldset>
+        <input type="reset">
+        <br>
+        <input type="submit">
+    </form>
+
+<script src="Farcebook.js"></script>
+</body>
+</html>

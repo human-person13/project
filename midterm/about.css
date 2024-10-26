@@ -1,0 +1,176 @@
+body {
+    color: #ffffff;
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.home {
+    float: right;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(84, 71, 63);
+    top: 0;
+    position: sticky;
+  }
+
+.navbar .albums {
+    float: left;
+}
+
+.navbar a {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(84, 71, 63);
+  }
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: rgb(60, 61, 55);
+}
+
+main .sect1 li {
+     margin: 20px;
+    padding: 10px 5px;
+}
+
+.img1 {
+    width: 400px;
+    float: left;
+    margin: 10px 15px 10px 0;
+    border: 2px solid rgba(0,0,0,0.2);
+    box-shadow: 8px 16px 16px 8px rgba(0,0,0,0.2);
+}
+
+.img2 {
+    width: 400px;
+    float: right;
+    margin: 10px 15px 10px 0;
+    border: 2px solid rgba(0,0,0,0.2);
+    box-shadow: 8px 16px 16px 8px rgba(0,0,0,0.2);
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px 0;
+    border-top: 2px solid #f2f2f2;
+}
+
+main .sect2 {
+    padding-bottom: 200px;
+}
+
+main .sect2 .span {
+    display: inline-block;
+    width: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar a {
+        font-size: 17px;
+        padding: 13px 14px;
+        margin: 0 11px;
+    }
+
+    body {
+        font-size: 17px;
+    }
+
+    .img1 , .img2 {
+        width: 350px;
+    }
+
+    main .sect2 {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar a {
+        font-size: 15px;
+        padding: 12px 10px;
+        margin: 0 8px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .img1 , .img2 {
+        width: 330px;
+    }
+
+    main .sect2 {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar a {
+        font-size: 13px;
+        padding: 12px 5px;
+        margin: 0 0;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .img1 , .img2 {
+        width: 300px;
+    }
+
+    main .sect2 {
+        padding-bottom: 130px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        font-size: 13px;
+        padding: 12px 5px;
+        margin: 0 0;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .img1 , .img2 {
+        width: 250px;
+    }
+
+    main .sect2 {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        font-size: 13px;
+        padding: 12px 4px;
+        margin: 0 4;
+    }
+
+    .navbar .home {
+        float: left;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .img1 , .img2 {
+        width: 230px;
+    }
+
+    main .sect2 {
+        padding-bottom: 70px;
+    }
+}

@@ -1,0 +1,347 @@
+body, ul, li, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: rgb(24, 28, 20);
+    color: #ffffff;
+}
+
+header {
+    background-color:rgb(60, 61, 55);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    border: 4px dotted rgb(255, 255, 255);
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 120px;
+}
+
+header p {
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(84, 71, 63);
+    top: 0;
+    position: sticky;
+  }
+
+nav a {
+    float: left;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(84, 71, 63);
+  }
+
+nav a:hover {
+    background-color: #ffffff;
+    color: rgb(60, 61, 55);
+}
+
+.navbar2 h4 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  nav .aboutlink {
+    float: right;
+  }
+
+.row {
+    display: -ms-inline-grid;
+    grid-template-columns: auto auto;
+    grid-row: inherit;
+    margin: 50px;
+    padding: 40px 0;
+
+}
+
+.column {
+    background-color: rgb(60, 61, 55);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.column h4 {
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.column h6 {
+    font-size: 20px;
+}
+
+.column img {
+    width: 400px;
+    float: left;
+    padding: 0 13px 10px 0;
+}
+
+.column p {
+    text-align: justify;
+    margin: 0 0 20px 0;
+}
+
+#background p {
+    font-size: 25px;
+}
+
+.divider {
+    width: 100%;
+    height: 40px;
+}
+
+.navbar2 {
+    margin: 0 0 20px 0;
+    background-color: rgb(84, 71, 63);
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar2 .span1 {
+    float: left;
+}
+
+.navbar2:hover .navbarextend {
+    display: block;
+}
+
+.navbarextend {
+    font-size: 30;
+    display: none;
+    background-color: rgb(84, 71, 63);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.navbarextend a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(84, 71, 63);
+    color: #ffffff;
+}
+
+.navbarextend a:hover {
+    background-color: #ffffff;
+    color: rgb(84, 71, 63);
+}
+
+#allalbums li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 10px 10px;
+    border: 2px solid #333;
+    background-color: rgb(60, 61, 55);
+}
+
+#allalbums ul li a {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: rgb(60, 61, 55);
+}
+
+#allalbums ul li a:hover {
+    background-color: #ffffff;
+    color: rgb(60, 61, 55);
+}
+
+.img1 {
+    width: 250px;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    background-color: rgb(189,189,187);
+    border-radius: 10px;
+}
+
+.p1 {
+    top: 10px;
+}
+
+#allalbums li .column1{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    header {
+        font-size: 30px;
+    }
+
+    .column h4 {
+        font-size: 30px;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .column h6 {
+        font-size: 20px;
+    }
+
+    .column p {
+        font-size: 15px;
+    }
+
+    #background p , #background img {
+        font-size: 20px;
+    }
+
+    .divider {
+        width: 100%;
+        height: 30px;
+    }
+
+    #allalbums ul li a {
+        font-size: 35px;
+    }
+
+    .navbarextend, .navbar2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        font-size: 25px;
+    }
+
+    .column h4 {
+        font-size: 25px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    .column h6 {
+        font-size: 15px;
+    }
+
+    .column p {
+        font-size: 13px;
+    }
+
+    #background p , #background img {
+        font-size: 17px;
+    }
+
+    .divider {
+        width: 100%;
+        height: 20px;
+    }
+
+    #allalbums ul li a {
+        font-size: 30px;
+    }
+
+    .navbarextend, .navbar2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #background img, .img1 {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #background img , .img1 {
+        width: 170px;
+    }
+
+    header {
+        font-size: 15px;
+    }
+
+    .navbar {
+        font-size: 13px;
+    }
+
+    .row {
+        margin: 10px;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    header {
+        font-size: 11px;
+    }
+
+    .navbar {
+        font-size: 10px;
+    }
+
+    .row {
+        margin: 10px;
+        padding: 20px 0;
+    }
+
+    #background img {
+        width: 100px;
+    }
+
+    #background h4 {
+        font-size: 13px;
+    }
+
+    #background p {
+        font-size: 11px;
+    }
+
+    .column h4 {
+        font-size: 15px;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+
+    .column h6 {
+        font-size: 11px;
+    }
+
+    .column p {
+        font-size: 9px;
+    }
+
+    .divider {
+        width: 100%;
+        height: 10px;
+    }
+
+    #allalbums ul li a {
+        font-size: 15px;
+    }
+
+    #allalbums ul li p , #allalbums ul li {
+        font-size: 10px;
+    }
+
+    .img1 {
+        width: 130px;
+    }
+
+    .navbarextend, .navbar2 {
+        font-size: 15px;
+    }
+}

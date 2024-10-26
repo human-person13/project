@@ -1,0 +1,23 @@
+body {
+    text-align: justify;
+}
+label {
+    text-align: justify;
+}
+
+
+#question {
+    color: red;
+}
+
+.bigtitle {
+    font-size: 2em;
+}
+
+div {
+    size: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: justify;
+    justify-content: center;
+}

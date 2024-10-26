@@ -1,0 +1,46 @@
+html {
+    font-size: 16px;
+}
+
+.space {
+    padding: 4px 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+p {
+    margin: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.large {
+    height: 10px;
+  }
+  
+  .large, .medium {
+    background-color: #888989;
+    border: 0;
+  }
+  
+  .medium {
+    height: 5px;
+  }
+
+.bold {
+    font-weight: 780;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divider {
+    border-bottom: 2px solid #888989;
+    margin: 4px 0px;
+    width: 550px;
+    
+}
